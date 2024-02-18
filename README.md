@@ -1,8 +1,5 @@
 # Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals
 
-
-
-
 ## Introduction
 
 It is find that ubiquitous time series (TS) forecasting models are prone to severe overfitting. To cope with this problem, we embrace a de-redundancy approach to progressively reinstate the intrinsic values of TS for future intervals. Specifically, we renovate the vanilla Transformer by reorienting the information aggregation mechanism from addition to subtraction. 
@@ -11,12 +8,7 @@ This designing facilitates the learning-driven implicit progressive decompositio
 Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
 
-  <img src='https://github.com/Anoise/Minusformer/blob/main/Images/performance.jpg' >
-
-
- 
-
-<img src='https://github.com/Anoise/Minusformer/blob/main/Images/arch.jpg' style='float:right; width:350px;height:280px'/>
+ <img src='https://github.com/Anoise/Minusformer/blob/main/Images/performance.jpg' style='float:right; width:350px;height:350px' />
 
 ## Contributions
 
@@ -25,6 +17,7 @@ Extensive experiments demonstrate the proposed method outperform existing state-
  - The proposed Minusformer facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting.
  - Minusformer outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
+<img src='https://github.com/Anoise/Minusformer/blob/main/Images/arch.jpg' style='float:right; width:350px;height:280px'/>
 
 ## Training and Testing Minusformer
 Clone the code repository
