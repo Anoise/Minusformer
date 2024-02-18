@@ -106,13 +106,13 @@ Minusformer achieves the consistent SOTA performance across all datasets and pre
 
 Minusformer continues to maintain a SOTA performance across various prediction length settings compared to the benchmarks.
 
-<div align=center><img src="Images/n_table.jpg"></div>
+<div align=center><img src="Images/n_table.jpg" width="500"></div>
 
 ## 6. Ablation Studies of Minusformer with Various Attention
 
 All results are averaged across all prediction lengths. The tick labels of the X-axis are the abbreviation of Attention types.
 
-<div align=center><img src="Images/other_attn.jpg" width="500"></div>
+<div align=center><img src="Images/other_attn.jpg"></div>
 
 ## 7. Good Interpretability
 
