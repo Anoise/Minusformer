@@ -111,15 +111,15 @@ Minusformer continues to maintain a SOTA performance across various prediction l
 
 <div align=center><img src="Images/n_table.jpg" width="600"></div>
 
-## 6. Model Abalations
+## 6. Very Effectiveness
 
 Ablation studies on various components of Minusformer. All results are averaged across all prediction lengths. The variables X and Y represent the input and output streams, while the signs ‘+’ and ‘-’ denote the addition or subtraction operations used when the streams’ aggregation. The letter ‘G’ denotes adding a gating mechanism to the output of each block.
 
 <div align=center><img src="Images/variates.jpg"></div>
 
-## 7. Ablation Studies of Minusformer with Various Attention
+## 7. Good Generality 
 
-All results are averaged across all prediction lengths. The tick labels of the X-axis are the abbreviation of Attention types.
+Ablation Studies of Minusformer with Various Attention. All results are averaged across all prediction lengths. The tick labels of the X-axis are the abbreviation of Attention types.
 
 <div align=center><img src="Images/other_attn.jpg"></div>
 
