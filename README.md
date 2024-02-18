@@ -54,7 +54,7 @@ scripts/
 │   ├── Minusformer_ETTm2_96M.sh
 │   └── Minusformer_ETTm2_96S.sh
 ├── Exchange
-│   └── Minusformer_96s.sh
+│   └── Minusformer_96S.sh
 ├── Pems
 │   ├── Minusformer_336M.sh
 │   └── Minusformer_96M.sh
