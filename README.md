@@ -21,12 +21,15 @@ Extensive experiments demonstrate the proposed method outperform existing state-
 <div align=center><img src="Images/arch.jpg" width="600"></div>
 
 ## 3. Training and Testing Minusformer
-Clone the code repository
+### 1) Dataset 
+The datasets can be obtained from [Google Drive](https://drive.google.com/file/d/1l51QsKvQPcqILT3DwfjCgx8Dsg2rpjot/view?usp=drive_link) or [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/2ea5ca3d621e4e5ba36a/).
+
+### 2) Clone the code repository
 ```git
 git clone git@github.com:Anoise/Minusformer.git
 ```
 
-### Training on Time Series Dataset
+### 3) Training on Time Series Dataset
 Go to the directory "Minusformer/", we'll find that the bash scripts are all in the 'scripts' folder, like this:
 
 ```
@@ -108,6 +111,12 @@ Minusformer continues to maintain a SOTA performance across various prediction l
 
 <div align=center><img src="Images/n_table.jpg" width="600"></div>
 
+## Model Abalations
+
+Ablation studies on various components of Minusformer. All results are averaged across all prediction lengths. The variables X and Y represent the input and output streams, while the signs ‘+’ and ‘-’ denote the addition or subtraction operations used when the streams’ aggregation. The letter ‘G’ denotes adding a gating mechanism to the output of each block.
+
+<div align=center><img src="Images/variates.jpg"></div>
+
 ## 6. Ablation Studies of Minusformer with Various Attention
 
 All results are averaged across all prediction lengths. The tick labels of the X-axis are the abbreviation of Attention types.
@@ -139,3 +148,4 @@ Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang and Minggao Zhang, Mi
   year={2024}
 }
 ```
+
