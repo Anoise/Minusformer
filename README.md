@@ -96,9 +96,13 @@ Note that:
 
 ## 4. Performace on Multivariate Time Series
 
+Minusformer achieves the consistent SOTA performance across all datasets and prediction length configurations.
+
 <div align=center><img src="Images/m_table.jpg"></div>
 
 ## 5. Performace on Univariate Time Series
+
+Minusformer continues to maintain a SOTA performance across various prediction length settings compared to the benchmarks.
 
 <div align=center><img src="Images/n_table.jpg"></div>
 
