@@ -8,7 +8,7 @@ This designing facilitates the learning-driven implicit progressive decompositio
 Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
 
- <img src='https://github.com/Anoise/Minusformer/blob/main/Images/performance.jpg' style='float:left; width:350px;height:350px' />
+ <img src='https://github.com/Anoise/Minusformer/blob/main/Images/performance.jpg' />
 
 ## Contributions
 
