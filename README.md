@@ -7,7 +7,7 @@ The output of subsequent modules in this branch will subtract the previously lea
 This designing facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting.
 Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
-<div align=center><img src="Images/performance.jpg" width="600"></div>
+<div float=left><img src="Images/performance.jpg" width="600"></div>
 
 ## Contributions
 
