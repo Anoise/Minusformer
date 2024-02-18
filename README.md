@@ -96,7 +96,7 @@ Note that:
 
 ## 4. Performace on Multivariate Time Series
 
-<div align=center><img src="Images/m_tabel.jpg"></div>
+<div align=center><img src="Images/m_table.jpg"></div>
 
 ## 5. Performace on Univariate Time Series
 
