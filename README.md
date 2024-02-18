@@ -1,6 +1,6 @@
 # Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals
 
-<div style="float: left; margin-right: 10px;">
+<div style="float: left">
 <img src='https://github.com/Anoise/Minusformer/blob/main/Images/performance.jpg' style='zoom: 10%'/>
 </div>
 
