@@ -8,7 +8,7 @@ This designing facilitates the learning-driven implicit progressive decompositio
 Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
 
- <img src='https://github.com/Anoise/Minusformer/blob/main/Images/performance.jpg' style='float:right; width:350px;height:350px' />
+ <img src='https://github.com/Anoise/Minusformer/blob/main/Images/performance.jpg' style='float:left; width:350px;height:350px' />
 
 ## Contributions
 
@@ -17,7 +17,7 @@ Extensive experiments demonstrate the proposed method outperform existing state-
  - The proposed Minusformer facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting.
  - Minusformer outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
-<img src='https://github.com/Anoise/Minusformer/blob/main/Images/arch.jpg' style='float:right; width:350px;height:280px'/>
+<img src='https://github.com/Anoise/Minusformer/blob/main/Images/arch.jpg' style='float:center; width:350px;height:280px'/>
 
 ## Training and Testing Minusformer
 Clone the code repository
@@ -117,7 +117,7 @@ Visualization depicting the output of each block in Minusformer. The experiment 
 
 ## Go Deeper
 
-<img src='https://github.com/Anoise/Minusformer/blob/main/Images/godeeper.jpg' style='float:right; width:400px;height:300px'/>
+<img src='https://github.com/Anoise/Minusformer/blob/main/Images/godeeper.jpg' style='float:center; width:400px;height:300px'/>
 
 Given the Minusformer’s robustness against overfitting, it can be designed with considerable depth. Even with the Minusformer blocks deepened to 8
 or 16, it continues to exhibit excellent performance.
