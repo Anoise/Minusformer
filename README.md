@@ -1,4 +1,6 @@
-# Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals
+# Minusformer
+
+The repo is the official implementation for the paper: [Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals](https://arxiv.org/abs/2402.02332).
 
 ## 1. Introduction
 
