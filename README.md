@@ -111,32 +111,32 @@ Minusformer continues to maintain a SOTA performance across various prediction l
 
 <div align=center><img src="Images/n_table.jpg" width="600"></div>
 
-## Model Abalations
+## 6. Model Abalations
 
 Ablation studies on various components of Minusformer. All results are averaged across all prediction lengths. The variables X and Y represent the input and output streams, while the signs ‘+’ and ‘-’ denote the addition or subtraction operations used when the streams’ aggregation. The letter ‘G’ denotes adding a gating mechanism to the output of each block.
 
 <div align=center><img src="Images/variates.jpg"></div>
 
-## 6. Ablation Studies of Minusformer with Various Attention
+## 7. Ablation Studies of Minusformer with Various Attention
 
 All results are averaged across all prediction lengths. The tick labels of the X-axis are the abbreviation of Attention types.
 
 <div align=center><img src="Images/other_attn.jpg"></div>
 
-## 7. Good Interpretability
+## 8. Good Interpretability
 
 Visualization depicting the output of each block in Minusformer. The experiment was implemented on the Traffic dataset using the setting of Input-96-Predict-96. The utilized models have the same hyperparameter settings and similar performance.
 
 <div align=center><img src="Images/interpretable.jpg"></div>
 
-## 8. Go Deeper
+## 9. Go Deeper
 
 Given the Minusformer’s robustness against overfitting, it can be designed with considerable depth. Even with the Minusformer blocks deepened to 8
 or 16, it continues to exhibit excellent performance.
 
 <div align=center><img src="Images/godeeper.jpg" width="400"></div>
 
-## 9. Citations
+## 10. Citations
 
 Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang and Minggao Zhang, Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals. arXiv preprint arXiv:2402.02332  (2024).
 
@@ -148,4 +148,5 @@ Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang and Minggao Zhang, Mi
   year={2024}
 }
 ```
+
 
