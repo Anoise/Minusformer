@@ -112,7 +112,7 @@ Minusformer continues to maintain a SOTA performance across various prediction l
 
 All results are averaged across all prediction lengths. The tick labels of the X-axis are the abbreviation of Attention types.
 
-<div align=center><img src="Images/other_attn.jpg"></div>
+<div align=center><img src="Images/other_attn.jpg" width="500"></div>
 
 ## 7. Good Interpretability
 
@@ -129,4 +129,13 @@ or 16, it continues to exhibit excellent performance.
 
 ## 9. Citations
 
-Liang, D., Zhang, H., Yuan, D., Zhang, B., & Zhang, M. (2024). Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals. arXiv preprint arXiv:2402.02332.
+Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang and Minggao Zhang. (2024). Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals. arXiv preprint arXiv:2402.02332.
+
+```
+@article{liang2024minusformer,
+  title={Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals},
+  author={Liang, Daojun and Zhang, Haixia and Yuan, Dongfeng and Zhang, Bingzheng and Zhang, Minggao},
+  journal={arXiv preprint arXiv:2402.02332},
+  year={2024}
+}
+```
