@@ -7,7 +7,7 @@ The output of subsequent modules in this branch will subtract the previously lea
 This designing facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting.
 Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
-<div align=center><img src="Images/performance.jpg" width="600"></div>
+<div align=center><img src="Images/performance.jpg" width="500"></div>
 
 ## Contributions
 
@@ -96,23 +96,23 @@ Note that:
 
 ## Performace on Multivariate Time Series
 
-<img src="https://github.com/Anoise/Minusformer/blob/main/Images/m_tabel.jpg">
+<div align=center><img src="Images/m_tabel.jpg"></div>
 
 ## Performace on Univariate Time Series
 
-<img src="Images/n_table.jpg">
+<div align=center><img src="Images/n_table.jpg"></div>
 
 ## Ablation Studies of Minusformer with Various Attention
 
 All results are averaged across all prediction lengths. The tick labels of the X-axis are the abbreviation of Attention types.
 
-<img src="https://github.com/Anoise/Minusformer/blob/main/Images/other_attn.jpg">
+<div align=center><img src="Images/other_attn.jpg"></div>
 
 ## Good Interpretability
 
 Visualization depicting the output of each block in Minusformer. The experiment was implemented on the Traffic dataset using the setting of Input-96-Predict-96. The utilized models have the same hyperparameter settings and similar performance.
 
-<img src="https://github.com/Anoise/Minusformer/blob/main/Images/interpretable.jpg">
+<div align=center><img src="Images/interpretable.jpg"></div>
 
 ## Go Deeper
 
