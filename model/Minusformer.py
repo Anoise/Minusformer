@@ -19,10 +19,10 @@ class Model(nn.Module):
             [
                 EncoderLayer(
                     AttentionLayer(
-                        ProbAttention(False, configs.factor, attention_dropout=configs.dropout,
+                        FullAttention(False, configs.factor, attention_dropout=configs.dropout,
                                       output_attention=configs.output_attention), configs.d_model, configs.n_heads) if configs.attn else None,
                     configs.d_model,
-                    configs.pred_len,
+                    configs.d_block,
                     configs.d_ff,
                     dropout=configs.dropout,
                     gate = configs.gate
@@ -30,7 +30,11 @@ class Model(nn.Module):
             ],
             norm_layer=torch.nn.LayerNorm(configs.d_model)
         )
-        
+        if configs.d_block != configs.pred_len:
+            self.align = nn.Linear(configs.d_block, configs.pred_len)
+        else:
+            self.align = nn.Identity()
+
         print('Minusformer ...')
 
 
@@ -42,7 +46,8 @@ class Model(nn.Module):
             x_emb = self.embed(torch.cat((x, x_mark.permute(0,2,1)),1))  
         else:
             x_emb = self.embed(x)
-        output = self.backbone(x_emb) 
+        output = self.backbone(x_emb)
+        output = self.align(output)
         output = scaler.inverted(output[:, :x.size(1), :])
         return output.permute(0,2,1)
  

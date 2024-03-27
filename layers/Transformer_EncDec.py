@@ -24,7 +24,7 @@ class ConvLayer(nn.Module):
         return x
 
 class EncoderLayer(nn.Module):
-    def __init__(self, attention, d_model, pred_len, d_ff=None, dropout=0.1, gate=1):
+    def __init__(self, attention, d_model, d_block, d_ff=None, dropout=0.1, gate=1):
         super(EncoderLayer, self).__init__()
         d_ff = d_ff or 4 * d_model
         self.attention = attention
@@ -33,8 +33,8 @@ class EncoderLayer(nn.Module):
         self.conv3 = nn.Conv1d(d_model, d_model, kernel_size=1)
         self.conv4 = nn.Conv1d(d_model, d_model, kernel_size=1)
         d_ff = d_model*2 if attention else d_model
-        self.conv5 = nn.Conv1d(d_ff, pred_len, kernel_size=1)
-        self.conv6 = nn.Conv1d(d_ff, pred_len, kernel_size=1)
+        self.conv5 = nn.Conv1d(d_ff, d_block, kernel_size=1)
+        self.conv6 = nn.Conv1d(d_ff, d_block, kernel_size=1)
         self.norm1 = nn.LayerNorm(d_model)
         self.norm2 = nn.LayerNorm(d_model)
         self.dropout = nn.Dropout(dropout)
