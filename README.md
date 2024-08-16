@@ -138,9 +138,12 @@ or 16, it continues to exhibit excellent performance.
 
 <div align=center><img src="Images/godeeper.jpg" width="400"></div>
 
-## 10. Citations
+
 
 <!--
+## 10. Citations
+
+
 Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang and Minggao Zhang, Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals. arXiv preprint arXiv:2402.02332  (2024).
 
 ```
