@@ -12,7 +12,7 @@ The output of subsequent modules in this branch will subtract the previously lea
 This designing facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting.
 Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
-<div align=center><img src="Images/performance.jpg" width="500"></div>
+<div align=center><img src="Images/performance.jpg" width="600"></div>
 
 ## 2. Contributions
 
@@ -112,13 +112,13 @@ Minusformer achieves the consistent SOTA performance across all datasets and pre
 
 Minusformer continues to maintain a SOTA performance across various prediction length settings compared to the benchmarks.
 
-<div align=center><img src="Images/n_table.jpg"></div>
+<div align=center><img src="Images/n_table.png"></div>
 
 ## 6. Very Effectiveness
 
 Ablation studies on various components of Minusformer. All results are averaged across all prediction lengths. The variables X and Y represent the input and output streams, while the signs ‘+’ and ‘-’ denote the addition or subtraction operations used when the streams’ aggregation. The letter ‘G’ denotes adding a gating mechanism to the output of each block.
 
-<div align=center><img src="Images/variates.png"></div>
+<div align=center><img src="Images/variates.jpg"></div>
 
 ## 7. Good Generality 
 
