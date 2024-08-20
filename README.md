@@ -1,6 +1,6 @@
 # Minusformer
 
-The repo is the official implementation for the paper: [Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals](https://arxiv.org/abs/2402.02332).
+<!--The repo is the official implementation for the paper: [Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals](https://arxiv.org/abs/2402.02332).-->
 
 Cited by [Awesome Time Series Forecasting/Prediction Papers](https://github.com/ddz16/TSFpaper); 
 <!--[English Blog](); [Zhihu](https://zhuanlan.zhihu.com/p/703948963); [CSDN Blog](https://blog.csdn.net/liangdaojun/article/details/139748253)-->
