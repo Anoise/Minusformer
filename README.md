@@ -106,19 +106,19 @@ Note that:
 
 Minusformer achieves the consistent SOTA performance across all datasets and prediction length configurations.
 
-<div align=center><img src="Images/m_table.jpg"></div>
+<div align=center><img src="Images/m_table.png"></div>
 
 ## 5. Performace on Univariate Time Series
 
 Minusformer continues to maintain a SOTA performance across various prediction length settings compared to the benchmarks.
 
-<div align=center><img src="Images/n_table.jpg" width="600"></div>
+<div align=center><img src="Images/n_table.jpg"></div>
 
 ## 6. Very Effectiveness
 
 Ablation studies on various components of Minusformer. All results are averaged across all prediction lengths. The variables X and Y represent the input and output streams, while the signs ‘+’ and ‘-’ denote the addition or subtraction operations used when the streams’ aggregation. The letter ‘G’ denotes adding a gating mechanism to the output of each block.
 
-<div align=center><img src="Images/variates.jpg"></div>
+<div align=center><img src="Images/variates.png"></div>
 
 ## 7. Good Generality 
 
