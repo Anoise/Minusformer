@@ -1,6 +1,9 @@
 # Minusformer
 
-The repo is the official implementation for the paper: [Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals](https://arxiv.org/abs/2402.02332).
+<!--The repo is the official implementation for the paper: [Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals](https://arxiv.org/abs/2402.02332).
+
+Cited by [Awesome Time Series Forecasting/Prediction Papers](https://github.com/ddz16/TSFpaper); 
+[English Blog](); [Zhihu](https://zhuanlan.zhihu.com/p/703948963); [CSDN Blog](https://blog.csdn.net/liangdaojun/article/details/139748253)-->
 
 ## 1. Introduction
 
@@ -9,7 +12,7 @@ The output of subsequent modules in this branch will subtract the previously lea
 This designing facilitates the learning-driven implicit progressive decomposition of the input and output streams, empowering the model with heightened versatility, interpretability, and resilience against overfitting.
 Extensive experiments demonstrate the proposed method outperform existing state-of-the-art methods, yielding an average performance improvement of **11.9%** across various datasets.
 
-<div align=center><img src="Images/performance.jpg" width="500"></div>
+<div align=center><img src="Images/performance.jpg" width="600"></div>
 
 ## 2. Contributions
 
@@ -103,13 +106,13 @@ Note that:
 
 Minusformer achieves the consistent SOTA performance across all datasets and prediction length configurations.
 
-<div align=center><img src="Images/m_table.jpg"></div>
+<div align=center><img src="Images/m_table.png"></div>
 
 ## 5. Performace on Univariate Time Series
 
 Minusformer continues to maintain a SOTA performance across various prediction length settings compared to the benchmarks.
 
-<div align=center><img src="Images/n_table.jpg" width="600"></div>
+<div align=center><img src="Images/n_table.png"></div>
 
 ## 6. Very Effectiveness
 
@@ -136,7 +139,11 @@ or 16, it continues to exhibit excellent performance.
 
 <div align=center><img src="Images/godeeper.jpg" width="400"></div>
 
+
+
+<!--
 ## 10. Citations
+
 
 Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang and Minggao Zhang, Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals. arXiv preprint arXiv:2402.02332  (2024).
 
@@ -148,5 +155,6 @@ Daojun Liang, Haixia Zhang, Dongfeng Yuan, Bingzheng Zhang and Minggao Zhang, Mi
   year={2024}
 }
 ```
+<--
 
 
